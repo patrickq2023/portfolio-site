@@ -1,14 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import '../App.css'; // Importing the app.css file for styling
 
 const Home = () => {
+  const [nameLetters, setNameLetters] = useState([]);
+
+  useEffect(() => {
+    const name = 'patrick quayle';
+    const letters = name.split('');
+    setNameLetters(letters);
+  }, []);
+
   return (
-    <div>
-      <h2>Welcome to My Portfolio</h2>
-      <p>
-        This is the home page of my portfolio website. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero sit amet leo lacinia, nec viverra nisl commodo. Duis tempus magna ac dolor dapibus, eget mattis orci ullamcorper. Donec non sollicitudin ligula, id convallis eros.
+    <div className="home-container"> {/* Apply container class if needed */}
+      <h2 className="home-heading"> {/* Use home-heading class */}
+        {nameLetters.map((letter, index) => (
+          <span
+            key={index}
+            className="animated-letter" // Add animated-letter class
+            style={{ animationDelay: `${index * 0.1}s` }}
+          >
+            {letter}
+          </span>
+        ))}
+      </h2>
+      <p className="home-paragraph">
+        Junior Software Engineer
       </p>
-      <p>
-        Feel free to explore the other sections of my portfolio using the navigation menu above.
+      <p className="home-paragraph">
+        Welcome to my site, feel free to have a look around.
       </p>
     </div>
   );

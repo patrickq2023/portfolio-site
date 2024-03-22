@@ -19,7 +19,7 @@ const Project1 = () => {
         <h3>Snake</h3>
         <p>My first ever coding project was our first assignment on the General Assembly Software Engineering 
             Immersive Course. We were tasked to create a grid-based browser game. I chose “SNAKE” the 
-            game made popular by Nokia phones from the late 90’s. Most of the game was created in JavaScript 
+            game made popular by Nokia phones from the late nineties. Most of the game was created in JavaScript 
             with some CSS and minimal HTML. This was a brilliant way to implement our newly acquired skills 
             in and a great way to learn DOM manipulation through JavaScript, and to use a little bit of CSS 
             to add some style. The aim of the game is to direct the snake around the board eating fruit. The 

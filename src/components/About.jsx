@@ -1,11 +1,13 @@
-import React from 'react';
+import React from 'react'
+import myImage from '../assets/images/pq.jpg'
 
 const About = () => {
   return (
-    <div>
+    <div className="about-container">
       <h2>About Me</h2>
+      <div className="paragraph-container">
       <p>
-        Hello! My name isPatrick, (my friends call me pq) and I'm a London based Junior Software Engineer. 
+        Hello! My name is Patrick, (my friends call me pq) and I'm a London based Junior Software Engineer. 
       </p>
       <p>
       Transitioning from a lifelong career as a professional photographer and business owner, I sought a change of direction. 
@@ -18,11 +20,14 @@ const About = () => {
        Whether taking direction or leading a team, I am dedicated to delivering solid results that satisfy clients. My ability 
        to adapt and contribute is complimented by a friendly and easy going manner. Motivated and hungry to build my skill set, I am 
        enthusiastic about roles that foster both personal growth and meaningful contribution.
-
       </p>
       <p>
-      Please tak a look at my projects and if you like what you see please feel free to get in touch.
-      </p>
+      Please take a look at my projects and if you like what you see please feel free to get in touch.
+      </p>     
+     </div>
+     <div className="image-container">
+        <img src={myImage} alt="Myself" />
+      </div>
     </div>
   );
 };
