@@ -55,6 +55,7 @@ body {
   background-color: #e9bff2;
   color: #223d88;
   border:1px solid #ef42f5;
+  font-size: 14px;
   border-radius: 8px;
   padding: 20px;
   margin-top: 20px;
@@ -129,6 +130,7 @@ body {
   border: solid rgb(76, 156, 129) 1px;
   border-radius: 10px;
   background-color: rgb(192, 240, 224);
+  font-size: 14px;
   width: 60vw; 
   margin: 20px auto; 
   padding: 20px;
@@ -163,7 +165,7 @@ body {
   margin-bottom: 10px;
 }
 .project1-content p {
-  font-size: 16 px;
+  font-size: 14px;
   margin-right: 20px;
 }
 .project1-content button {

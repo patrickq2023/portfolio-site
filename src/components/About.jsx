@@ -19,6 +19,7 @@ const About = () => {
        to adapt and contribute is complimented by a friendly and easy going manner. Motivated and hungry to build my skill set, I am 
        enthusiastic about roles that foster both personal growth and meaningful contribution.</p>
       <p>Please take a look at my projects and if you like what you see please feel free to get in touch.</p>   
+      <hr />
       <p>Outside of work I have plenty of other interests including travelling, enjoying great food, Formula1 and snowboarding. 
         I love to keep fit and am a very keen triathlete, but my one true love is cycling. I serve as Road Captain on the 
         committee of my local cycling club, coordinating and planning club rides, and ride out with them at least twice a week. 
