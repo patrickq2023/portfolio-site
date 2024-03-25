@@ -13,6 +13,8 @@ const Contact = () => {
   };
 
   return (
+    <div>
+    <h2 className="contact-heading">Contact</h2>
     <div className="contact-container">
       <div className="email-icon" onClick={revealEmail}>
         <img src={emailIcon} alt="Email" />
@@ -33,6 +35,7 @@ const Contact = () => {
           <img src={githubIcon} alt="GitHub" />
         </div>
       </a>
+    </div>
     </div>
   );
 };
