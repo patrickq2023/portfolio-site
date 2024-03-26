@@ -2,7 +2,7 @@ import React from 'react';
 import project4Image from "../assets/images/project4.jpg";
 
 const Project4 = () => {
-  const projectUrl = "project-4-frontend-production.up.railway.app/"; // Replace with actual project URL
+  const projectUrl = "https://project-4-frontend-production.up.railway.app"; // Replace with actual project URL
   const frontendRepoUrl = "https://github.com/patrickq2023/Project-4-Frontend"; // Replace with actual frontend repo URL
   const backendRepoUrl = "https://github.com/patrickq2023/Project-4-Backend"; // Replace with actual backend repo URL
 

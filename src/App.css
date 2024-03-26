@@ -346,3 +346,55 @@ margin-top: 30px;
 .github-icon:hover img {
   transform: scale(1.2);
 }
+.hamburger-menu {
+  display: none; /* Hide by default on desktop */
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .hamburger-menu {
+    display: block; /* Show for mobile devices */
+  }
+
+  .nav-links {
+    display: none; /* Hide by default on mobile */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project1-container,
+  .project2-container,
+  .project3-container,
+  .project4-container {
+    flex-direction: column;
+  }
+  
+  .project1-content,
+  .project2-content,
+  .project3-content,
+  .project4-content {
+    order: 3; /* Move the text content to the top */
+  }
+
+  .project1-image,
+  .project2-image,
+  .project3-image,
+  .project4-image {
+    order: 2; /* Keep the image in the middle */
+  }
+  
+  .project1-buttons,
+  .project2-buttons,
+  .project3-buttons,
+  .project4-buttons {
+    order: 1; /* Move the buttons to the bottom */
+  }
+}
+
+
+

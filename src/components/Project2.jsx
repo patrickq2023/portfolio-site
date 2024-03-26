@@ -2,7 +2,7 @@ import React from 'react';
 import project2Image from "../assets/images/project2.jpg";
 
 const Project2 = () => {
-  const projectUrl = "pqsclassicclimbs.netlify.app/"; // Replace with actual project URL
+  const projectUrl = "https://pqsclassicclimbs.netlify.app"; // Replace with actual project URL
   const frontendRepoUrl = "https://github.com/patrickq2023/Project-2-Frontend"; // Replace with actual frontend repo URL
   const backendRepoUrl = "https://github.com/patrickq2023/Project-2-Backend"; // Replace with actual backend repo URL
 

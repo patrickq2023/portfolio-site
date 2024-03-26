@@ -1,30 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navigation = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
       <div className="container">
         <Link className="navbar-brand" to="/">patrick quayle</Link>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" onClick={toggleMenu}>
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className={`collapse navbar-collapse ${showMenu ? 'show' : ''}`}>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
+              <Link className="nav-link" to="/" onClick={toggleMenu}>Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
+              <Link className="nav-link" to="/about" onClick={toggleMenu}>About</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/skills">Skills</Link>
+              <Link className="nav-link" to="/skills" onClick={toggleMenu}>Skills</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/projects">Projects</Link>
+              <Link className="nav-link" to="/projects" onClick={toggleMenu}>Projects</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contact</Link>
+              <Link className="nav-link" to="/contact" onClick={toggleMenu}>Contact</Link>
             </li>
           </ul>
         </div>
