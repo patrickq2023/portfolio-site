@@ -24,7 +24,7 @@ const Project1 = () => {
             in and a great way to learn DOM manipulation through JavaScript, and to use a little bit of CSS 
             to add some style. The aim of the game is to direct the snake around the board eating fruit. The 
             more the snake eats the longer he gets, crash into a wall or himself and its, “Game Over”.</p>
-        <button onClick={handleProjectClick}>Visit Project</button>
+        <button onClick={handleProjectClick}>Project</button>
         <button onClick={handleGithubClick}>GitHub Repo</button>
       </div>
       <div className="project1-image" onClick={handleProjectClick}>

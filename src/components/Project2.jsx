@@ -29,9 +29,9 @@ const Project2 = () => {
             my favourite cycling climbs in Europe. Each climb has a photograph, 
             location, elevation, category and description. Users can login in 
             and view, add, comment and delete climbs.</p>
-        <button onClick={handleProjectClick}>Visit Project</button>
-        <button onClick={handleFrontendRepoClick}>Frontend Repo</button>
-        <button onClick={handleBackendRepoClick}>Backend Repo</button>
+        <button onClick={handleProjectClick}>Project</button>
+        <button onClick={handleFrontendRepoClick}>FE Repo</button>
+        <button onClick={handleBackendRepoClick}>BE Repo</button>
       </div>
       <div className="project2-image" onClick={handleProjectClick}>
         <img src={project2Image} alt="Project 2" />

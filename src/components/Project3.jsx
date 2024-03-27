@@ -28,9 +28,9 @@ const Project3 = () => {
             conventional paper diary/journal. We agreed on a name and set about creating Journée. Our vision 
             encompassed incorporating To-dos and a Schedule feature, along with Daily Check-ins to track 
             essential aspects such as Hydration, Mood, Sleep, and a daily Quote.</p>
-        <button onClick={handleProjectClick}>Visit Project</button>
-        <button onClick={handleFrontendRepoClick}>Frontend Repo</button>
-        <button onClick={handleBackendRepoClick}>Backend Repo</button>
+        <button onClick={handleProjectClick}>Project</button>
+        <button onClick={handleFrontendRepoClick}>FE Repo</button>
+        <button onClick={handleBackendRepoClick}>BE Repo</button>
       </div>
       <div className="project3-image" onClick={handleProjectClick}>
         <img src={project3Image} alt="Project 3" />

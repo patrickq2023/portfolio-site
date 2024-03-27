@@ -28,9 +28,9 @@ const Project4 = () => {
             another passion and created an app where people could upload images. Frustrated with 
             Instagram as it has become less about quality photographs and more about likes and follows. 
             Exposure is all about showcasing still photographs, so no videos, reels or stories here!</p>
-        <button onClick={handleProjectClick}>Visit Project</button>
-        <button onClick={handleFrontendRepoClick}>Frontend Repo</button>
-        <button onClick={handleBackendRepoClick}>Backend Repo</button>
+        <button onClick={handleProjectClick}>Project</button>
+        <button onClick={handleFrontendRepoClick}>FE Repo</button>
+        <button onClick={handleBackendRepoClick}>BE Repo</button>
       </div>
       <div className="project4-image" onClick={handleProjectClick}>
         <img src={project4Image} alt="Project 4" />
