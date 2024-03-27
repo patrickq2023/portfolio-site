@@ -40,6 +40,7 @@ body {
   font-size: 25px;
   margin-bottom: 10px;
 }
+
 .about-heading-container {
   text-align: center;
   margin-top: 30px;  
@@ -54,22 +55,28 @@ body {
 .paragraph-container {
   background-color: #e9bff2;
   color: #223d88;
-  border:1px solid #ef42f5;
+  border: 1px solid #ef42f5;
   font-size: 14px;
   border-radius: 8px;
   padding: 20px;
   margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; /* Align items vertically in the container */
 }
 
 .image-container {
-  margin-top: 30px;
+  margin-top: 20px;
+  flex: 1; /* Take up equal space */
+  padding: 0 20px; /* Adjust the padding as needed */
 }
 
 .image-container img {
-  width: 200px; /* Adjust the width of the image */
+  width: 40%; /* Adjust the width of the image */
   height: auto; /* Maintain aspect ratio */
   border: solid #ef42f5 1px;
   border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 
