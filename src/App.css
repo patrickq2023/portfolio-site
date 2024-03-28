@@ -16,11 +16,17 @@ body {
 }
 
 .home-heading {
-  margin-top: 300px;
+  margin-top: 250px;
   font-size: 120px; /* Example font size */ 
   animation: slideIn 2.5s ease-in-out; /* Example animation */
 }
 
+@media only screen and (max-width: 768px) {
+  .home-heading {
+    font-size: 80px; /* Adjust font size for mobile */
+  }
+}
+  
 @keyframes slideIn {
   0% {
     transform: translateY(-100%);

@@ -16,12 +16,9 @@ const Navigation = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className={`collapse navbar-collapse ${showMenu ? 'show' : ''}`}>
-          <ul className="navbar-nav">
+          <ul className="navbar-nav">      
             <li className="nav-item">
-              <Link className="nav-link" to="/" onClick={toggleMenu}>Home</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/about" onClick={toggleMenu}>About</Link>
+              <Link className="nav-link" to="/about" onClick={toggleMenu}>Expertise</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/skills" onClick={toggleMenu}>Skills</Link>

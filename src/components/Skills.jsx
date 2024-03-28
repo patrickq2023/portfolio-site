@@ -24,10 +24,7 @@ const Skills = () => {
     <div>
       <h2 className="skills-heading">Skills</h2>
       <div className="skills-page">
-        <div className="skills-header">
-          <p>
-            Here are some of the skills I've acquired so far
-          </p>
+        <div className="skills-header">        
         </div>
         <div className="skills-container">
         <div className="skill">
