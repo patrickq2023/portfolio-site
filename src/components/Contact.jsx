@@ -25,16 +25,16 @@ const Contact = () => {
           <img src={linkedinIcon} alt="LinkedIn" />
         </div>
       </a>
-      <a href="https://www.instagram.com/patrickq2010/" target="_blank" rel="noopener noreferrer">
-        <div className="insta-icon">
-          <img src={instagramIcon} alt="Instagram" />
-        </div>
-      </a>
       <a href="https://github.com/patrickq2023" target="_blank" rel="noopener noreferrer">
         <div className="github-icon">
           <img src={githubIcon} alt="GitHub" />
         </div>
       </a>
+      <a href="https://www.instagram.com/patrickq2010/" target="_blank" rel="noopener noreferrer">
+        <div className="insta-icon">
+          <img src={instagramIcon} alt="Instagram" />
+        </div>
+      </a>  
     </div>
     </div>
   );

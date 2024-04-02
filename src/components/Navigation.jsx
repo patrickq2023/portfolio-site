@@ -18,10 +18,10 @@ const Navigation = () => {
         <div className={`collapse navbar-collapse ${showMenu ? 'show' : ''}`}>
           <ul className="navbar-nav">      
             <li className="nav-item">
-              <Link className="nav-link" to="/about" onClick={toggleMenu}>Expertise</Link>
+              <Link className="nav-link" to="/about" onClick={toggleMenu}>About</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/skills" onClick={toggleMenu}>Skills</Link>
+              <Link className="nav-link" to="/skills" onClick={toggleMenu}>Expertise</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/projects" onClick={toggleMenu}>Projects</Link>
